@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="texture.png" width="2989" height="2419">
+  <SubTexture name="mangleJump 0014.png" x="5" y="5" width="768" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="mangleJump 0015.png" x="5" y="1039" width="768" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="mangleJump 0005.png" x="5" y="2073"  width="489" height="341" frameX="-338" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="mangleJump 0004.png" x="504" y="2073"  width="414" height="326" frameX="-409" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="mangleJump 0003.png" x="928" y="2073"  width="392" height="307" frameX="-417" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="mangleJump 0002.png" x="1330" y="2073"  width="387" height="286" frameX="-429" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="mangleJump 0001.png" x="1727" y="2073"  width="380" height="266" frameX="-441" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="mangleJump 0000.png" x="2117" y="2073"  width="376" height="256" frameX="-447" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="mangleJump 0008.png" x="2503" y="5" width="481" height="717" rotated="true"  frameX="-187" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="mangleJump 0007.png" x="2503" y="732" width="424" height="601" rotated="true"  frameX="-261" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="mangleJump 0012.png" x="783" y="1343"  width="995" height="720" frameX="-29" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="mangleJump 0011.png" x="1788" y="5" width="649" height="956" rotated="true"  frameX="-68" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="mangleJump 0013.png" x="783" y="5"  width="955" height="768" frameX="-69" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="mangleJump 0009.png" x="783" y="783"  width="887" height="533" frameX="-78" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="mangleJump 0010.png" x="1788" y="971" width="586" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="mangleJump 0006.png" x="2384" y="1343"  width="529" height="373" frameX="-309" frameY="-0" frameWidth="1024" frameHeight="768"/>
+</TextureAtlas>

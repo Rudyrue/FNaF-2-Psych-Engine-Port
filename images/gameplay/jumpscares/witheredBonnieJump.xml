@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="texture.png" width="3978" height="3132">
+  <SubTexture name="witheredBonnieJump 0011.png" x="10" y="10" width="768" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="witheredBonnieJump 0012.png" x="10" y="1054" width="768" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="witheredBonnieJump 0013.png" x="10" y="2098" width="768" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="witheredBonnieJump 0014.png" x="798" y="10"  width="1024" height="768" frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="witheredBonnieJump 0015.png" x="1842" y="10"  width="1024" height="768" frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="witheredBonnieJump 0010.png" x="2886" y="10"  width="1021" height="768" frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="witheredBonnieJump 0009.png" x="798" y="798" width="768" height="990" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="witheredBonnieJump 0008.png" x="798" y="1808" width="768" height="962" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="witheredBonnieJump 0007.png" x="1586" y="798"  width="935" height="768" frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="witheredBonnieJump 0006.png" x="2541" y="798"  width="785" height="768" frameX="-127" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="witheredBonnieJump 0001.png" x="3346" y="798"  width="622" height="722" frameX="-204" frameY="-46" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="witheredBonnieJump 0003.png" x="3346" y="1540"  width="587" height="681" frameX="-245" frameY="-87" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="witheredBonnieJump 0000.png" x="1586" y="2241"  width="708" height="765" frameX="-121" frameY="-3" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="witheredBonnieJump 0002.png" x="1586" y="1586" width="666" height="525" rotated="true"  frameX="-289" frameY="-102" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="witheredBonnieJump 0005.png" x="2314" y="2241" width="721" height="756" rotated="true"  frameX="-132" frameY="-47" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="witheredBonnieJump 0004.png" x="3055" y="2241"  width="709" height="696" frameX="-150" frameY="-72" frameWidth="1024" frameHeight="768"/>
+</TextureAtlas>

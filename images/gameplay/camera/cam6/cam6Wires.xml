@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="texture.png" width="1197" height="399">
+  <SubTexture name="wires 0005" x="3" y="3"  width="75" height="393" frameX="-16" frameY="-0" frameWidth="136" frameHeight="400"/>
+  <SubTexture name="wires 0004" x="84" y="3"  width="74" height="393" frameX="-17" frameY="-0" frameWidth="136" frameHeight="400"/>
+  <SubTexture name="wires 0006" x="164" y="3"  width="76" height="392" frameX="-15" frameY="-0" frameWidth="136" frameHeight="400"/>
+  <SubTexture name="wires 0003" x="246" y="3"  width="73" height="392" frameX="-18" frameY="-0" frameWidth="136" frameHeight="400"/>
+  <SubTexture name="wires 0007" x="325" y="3"  width="76" height="390" frameX="-16" frameY="-0" frameWidth="136" frameHeight="400"/>
+  <SubTexture name="wires 0002" x="407" y="3"  width="72" height="390" frameX="-19" frameY="-0" frameWidth="136" frameHeight="400"/>
+  <SubTexture name="wires 0001" x="485" y="3"  width="71" height="388" frameX="-21" frameY="-0" frameWidth="136" frameHeight="400"/>
+  <SubTexture name="wires 0008" x="562" y="3"  width="76" height="387" frameX="-17" frameY="-0" frameWidth="136" frameHeight="400"/>
+  <SubTexture name="wires 0000" x="644" y="3"  width="72" height="385" frameX="-21" frameY="-0" frameWidth="136" frameHeight="400"/>
+  <SubTexture name="wires 0009" x="722" y="3"  width="75" height="384" frameX="-18" frameY="-0" frameWidth="136" frameHeight="400"/>
+  <SubTexture name="wires 0014" x="803" y="3"  width="72" height="383" frameX="-22" frameY="-0" frameWidth="136" frameHeight="400"/>
+  <SubTexture name="wires 0010" x="881" y="3"  width="75" height="382" frameX="-19" frameY="-0" frameWidth="136" frameHeight="400"/>
+  <SubTexture name="wires 0011" x="962" y="3"  width="74" height="381" frameX="-21" frameY="-0" frameWidth="136" frameHeight="400"/>
+  <SubTexture name="wires 0013" x="1042" y="3"  width="72" height="381" frameX="-22" frameY="-0" frameWidth="136" frameHeight="400"/>
+  <SubTexture name="wires 0012" x="1120" y="3"  width="74" height="380" frameX="-21" frameY="-0" frameWidth="136" frameHeight="400"/>
+</TextureAtlas>

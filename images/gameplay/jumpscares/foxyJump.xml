@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="texture.png" width="2942" height="2249">
+  <SubTexture name="foxyJump 0012.png" x="10" y="10" width="768" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="foxyJump 0013.png" x="10" y="1054" width="768" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="foxyJump 0011.png" x="798" y="10"  width="1024" height="673" frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="foxyJump 0010.png" x="1842" y="10"  width="1024" height="573" frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="foxyJump 0009.png" x="1842" y="603"  width="940" height="507" frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="foxyJump 0008.png" x="798" y="703"  width="880" height="476" frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="foxyJump 0007.png" x="798" y="1199" width="453" height="777" rotated="true"  frameX="-60" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="foxyJump 0000.png" x="798" y="1996"  width="438" height="243" frameX="-263" frameY="-198" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="foxyJump 0006.png" x="1271" y="1199" width="420" height="697" rotated="true"  frameX="-108" frameY="-22" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="foxyJump 0002.png" x="1271" y="1916"  width="496" height="317" frameX="-228" frameY="-126" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="foxyJump 0005.png" x="1711" y="1199" width="389" height="635" rotated="true"  frameX="-145" frameY="-51" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="foxyJump 0004.png" x="1787" y="1854"  width="585" height="377" frameX="-175" frameY="-65" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="foxyJump 0003.png" x="2392" y="1130"  width="540" height="354" frameX="-202" frameY="-89" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="foxyJump 0001.png" x="2120" y="1504"  width="458" height="278" frameX="-252" frameY="-165" frameWidth="1024" frameHeight="768"/>
+</TextureAtlas>

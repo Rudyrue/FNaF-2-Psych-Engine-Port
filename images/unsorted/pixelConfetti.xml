@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="texture.png" width="630" height="347">
+  <SubTexture name="confetti 0003" x="3" y="3"  width="169" height="179" frameX="-9" frameY="-7" frameWidth="192" frameHeight="192"/>
+  <SubTexture name="confetti 0005" x="3" y="188" width="173" height="156" rotated="true"  frameX="-22" frameY="-10" frameWidth="192" frameHeight="192"/>
+  <SubTexture name="confetti 0004" x="178" y="3"  width="173" height="173" frameX="-11" frameY="-5" frameWidth="192" frameHeight="192"/>
+  <SubTexture name="confetti 0002" x="182" y="182"  width="160" height="161" frameX="-15" frameY="-12" frameWidth="192" frameHeight="192"/>
+  <SubTexture name="confetti 0007" x="348" y="182" width="173" height="146" rotated="true"  frameX="-20" frameY="-10" frameWidth="192" frameHeight="192"/>
+  <SubTexture name="confetti 0006" x="357" y="3"  width="145" height="169" frameX="-22" frameY="-9" frameWidth="192" frameHeight="192"/>
+  <SubTexture name="confetti 0001" x="508" y="3"  width="119" height="121" frameX="-35" frameY="-35" frameWidth="192" frameHeight="192"/>
+  <SubTexture name="confetti 0000" x="527" y="130" width="79" height="86" rotated="true"  frameX="-54" frameY="-47" frameWidth="192" frameHeight="192"/>
+</TextureAtlas>

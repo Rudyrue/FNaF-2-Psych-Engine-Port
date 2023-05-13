@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="texture.png" width="2060" height="2322">
+  <SubTexture name="camChange 0000" x="3" y="3"  width="1024" height="768" frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="camChange 0001" x="1033" y="3"  width="1024" height="768" frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="camChange 0002" x="3" y="777"  width="1024" height="768" frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="camChange 0003" x="3" y="1551"  width="1024" height="768" frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="camChange 0004" x="1033" y="777"  width="1024" height="768" frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+</TextureAtlas>

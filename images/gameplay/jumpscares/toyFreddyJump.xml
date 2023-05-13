@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="texture.png" width="2927" height="2834">
+  <SubTexture name="toyFreddyJump 0006.png" x="3" y="3" width="768" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyFreddyJump 0007.png" x="3" y="1033" width="768" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyFreddyJump 0008.png" x="3" y="2063"  width="1024" height="768" frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyFreddyJump 0010.png" x="1033" y="2063"  width="1024" height="768" frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyFreddyJump 0004.png" x="2063" y="3"  width="861" height="768" frameX="-81" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyFreddyJump 0013.png" x="2063" y="777" width="768" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyFreddyJump 0001.png" x="777" y="1807"  width="567" height="232" frameX="-224" frameY="-536" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyFreddyJump 0000.png" x="1350" y="1807"  width="541" height="175" frameX="-238" frameY="-593" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyFreddyJump 0014.png" x="2063" y="1807" width="768" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyFreddyJump 0005.png" x="777" y="3"  width="1014" height="768" frameX="-10" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyFreddyJump 0003.png" x="777" y="777" width="578" height="724" rotated="true"  frameX="-145" frameY="-190" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyFreddyJump 0002.png" x="1361" y="777"  width="627" height="372" frameX="-194" frameY="-396" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyFreddyJump 0009.png" x="3" y="1033" width="768" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyFreddyJump 0011.png" x="3" y="1033" width="768" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyFreddyJump 0012.png" x="3" y="2063"  width="1024" height="768" frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+</TextureAtlas>

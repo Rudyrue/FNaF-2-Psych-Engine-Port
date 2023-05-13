@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="texture.png" width="1659" height="846">
+  <SubTexture name="desk 0000" x="849" y="3"  width="807" height="417" frameX="-23" frameY="-18" frameWidth="851" frameHeight="435"/>
+  <SubTexture name="desk 0001" x="3" y="3" width="417" height="807" rotated="true"  frameX="-23" frameY="-18" frameWidth="851" frameHeight="435"/>
+  <SubTexture name="desk 0002" x="849" y="426"  width="807" height="417" frameX="-23" frameY="-18" frameWidth="851" frameHeight="435"/>
+  <SubTexture name="desk 0003" x="426" y="3" width="417" height="807" rotated="true"  frameX="-23" frameY="-18" frameWidth="851" frameHeight="435"/>
+</TextureAtlas>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="texture.png" width="2920" height="2730">
+  <SubTexture name="puppetJump 0012.png" x="5" y="5" width="768" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="puppetJump 0013.png" x="5" y="1039" width="768" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="puppetJump 0010.png" x="5" y="2073"  width="1024" height="652" frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="puppetJump 0002.png" x="1039" y="2073" width="274" height="616" rotated="true"  frameX="-215" frameY="-262" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="puppetJump 0009.png" x="1323" y="2073"  width="1024" height="600" frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="puppetJump 0008.png" x="2357" y="5" width="558" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="puppetJump 0014.png" x="783" y="1039" width="768" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="puppetJump 0011.png" x="1561" y="1039" width="723" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="puppetJump 0006.png" x="2294" y="1039" width="530" height="1024" rotated="true"  frameX="-0" frameY="-114" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="puppetJump 0007.png" x="783" y="5" width="469" height="1024" rotated="true"  frameX="-0" frameY="-50" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="puppetJump 0005.png" x="1262" y="5" width="407" height="1024" rotated="true"  frameX="-0" frameY="-167" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="puppetJump 0001.png" x="2357" y="2073"  width="532" height="258" frameX="-255" frameY="-279" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="puppetJump 0004.png" x="1679" y="5" width="314" height="896" rotated="true"  frameX="-82" frameY="-207" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="puppetJump 0003.png" x="2003" y="5" width="290" height="731" rotated="true"  frameX="-160" frameY="-238" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="puppetJump 0000.png" x="2357" y="2341"  width="462" height="239" frameX="-287" frameY="-292" frameWidth="1024" frameHeight="768"/>
+</TextureAtlas>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="texture.png" width="3415" height="2496">
+  <SubTexture name="toyChicaJump 0008.png" x="10" y="10" width="768" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyChicaJump 0009.png" x="10" y="1054" width="768" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyChicaJump 0010.png" x="798" y="10" width="768" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyChicaJump 0011.png" x="798" y="1054" width="768" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyChicaJump 0012.png" x="1586" y="10"  width="1024" height="768" frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyChicaJump 0004.png" x="2630" y="10"  width="775" height="421" frameX="-125" frameY="-347" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyChicaJump 0007.png" x="2630" y="451" width="705" height="1024" rotated="true"  frameX="-0" frameY="-63" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyChicaJump 0006.png" x="1586" y="798"  width="1024" height="555" frameX="-0" frameY="-213" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyChicaJump 0005.png" x="1586" y="1495" width="466" height="892" rotated="true"  frameX="-66" frameY="-302" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyChicaJump 0000.png" x="2072" y="1373" width="472" height="628" rotated="true"  frameX="-262" frameY="-296" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyChicaJump 0001.png" x="2072" y="2021"  width="638" height="465" frameX="-251" frameY="-303" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyChicaJump 0002.png" x="2730" y="2021"  width="667" height="444" frameX="-219" frameY="-324" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyChicaJump 0003.png" x="2564" y="1495"  width="689" height="420" frameX="-190" frameY="-348" frameWidth="1024" frameHeight="768"/>
+</TextureAtlas>

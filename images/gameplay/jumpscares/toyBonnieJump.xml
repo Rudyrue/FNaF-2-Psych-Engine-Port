@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="texture.png" width="3583" height="2591">
+  <SubTexture name="toyBonnieJump 0009.png" x="10" y="10" width="768" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyBonnieJump 0010.png" x="10" y="1054" width="768" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyBonnieJump 0004.png" x="10" y="2098" width="768" height="460" rotated="true"  frameX="-265" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyBonnieJump 0011.png" x="798" y="10" width="768" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyBonnieJump 0012.png" x="798" y="1054" width="768" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyBonnieJump 0008.png" x="1586" y="10"  width="1024" height="724" frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyBonnieJump 0006.png" x="2630" y="10"  width="943" height="721" frameX="-39" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyBonnieJump 0005.png" x="2630" y="751" width="768" height="582" rotated="true"  frameX="-206" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyBonnieJump 0007.png" x="1586" y="754"  width="1024" height="637" frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyBonnieJump 0003.png" x="2630" y="1353" width="681" height="598" rotated="true"  frameX="-196" frameY="-87" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyBonnieJump 0002.png" x="1586" y="1971"  width="539" height="610" frameX="-233" frameY="-158" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyBonnieJump 0001.png" x="1586" y="1411" width="568" height="518" rotated="true"  frameX="-243" frameY="-200" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="toyBonnieJump 0000.png" x="2145" y="1971"  width="496" height="498" frameX="-256" frameY="-270" frameWidth="1024" frameHeight="768"/>
+</TextureAtlas>

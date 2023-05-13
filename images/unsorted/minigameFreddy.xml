@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="texture.png" width="537" height="475">
+  <SubTexture name="up 0000" x="3" y="3"  width="157" height="194" frameX="-24" frameY="-6" frameWidth="200" frameHeight="200"/>
+  <SubTexture name="up 0001" x="3" y="203"  width="157" height="194" frameX="-24" frameY="-6" frameWidth="200" frameHeight="200"/>
+  <SubTexture name="down 0000" x="166" y="3" width="181" height="138" rotated="true"  frameX="-31" frameY="-17" frameWidth="200" frameHeight="200"/>
+  <SubTexture name="left 0000" x="353" y="3" width="181" height="138" rotated="true"  frameX="-31" frameY="-17" frameWidth="200" frameHeight="200"/>
+  <SubTexture name="right 0000" x="166" y="147"  width="138" height="181" frameX="-31" frameY="-17" frameWidth="200" frameHeight="200"/>
+  <SubTexture name="down 0001" x="166" y="334" width="180" height="138" rotated="true"  frameX="-31" frameY="-17" frameWidth="200" frameHeight="200"/>
+  <SubTexture name="left 0001" x="310" y="147"  width="138" height="180" frameX="-31" frameY="-17" frameWidth="200" frameHeight="200"/>
+  <SubTexture name="right 0001" x="352" y="333" width="180" height="138" rotated="true"  frameX="-31" frameY="-17" frameWidth="200" frameHeight="200"/>
+</TextureAtlas>

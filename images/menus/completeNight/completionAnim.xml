@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="texture.png" width="249" height="222">
+  <SubTexture name="5am anim 0000" x="3" y="3"  width="57" height="86" frameX="-0" frameY="-0" frameWidth="57" frameHeight="86"/>
+  <SubTexture name="6am anim 0003" x="3" y="95"  width="57" height="86" frameX="-0" frameY="-0" frameWidth="57" frameHeight="86"/>
+  <SubTexture name="6am anim 0000" x="3" y="187" width="38" height="13" rotated="true"  frameX="-0" frameY="-3" frameWidth="57" frameHeight="86"/>
+  <SubTexture name="5am anim 0004" x="3" y="206"  width="37" height="13" frameX="-10" frameY="-37" frameWidth="57" frameHeight="86"/>
+  <SubTexture name="6am anim 0004" x="66" y="3" width="86" height="57" rotated="true"  frameX="-0" frameY="-0" frameWidth="57" frameHeight="86"/>
+  <SubTexture name="6am anim 0005" x="158" y="3" width="86" height="57" rotated="true"  frameX="-0" frameY="-0" frameWidth="57" frameHeight="86"/>
+  <SubTexture name="5am anim 0001" x="66" y="66"  width="57" height="83" frameX="-0" frameY="-3" frameWidth="57" frameHeight="86"/>
+  <SubTexture name="6am anim 0002" x="66" y="155" width="83" height="57" rotated="true"  frameX="-0" frameY="-3" frameWidth="57" frameHeight="86"/>
+  <SubTexture name="5am anim 0002" x="129" y="66"  width="54" height="83" frameX="-0" frameY="-3" frameWidth="57" frameHeight="86"/>
+  <SubTexture name="6am anim 0001" x="189" y="66"  width="57" height="81" frameX="-0" frameY="-3" frameWidth="57" frameHeight="86"/>
+  <SubTexture name="5am anim 0003" x="189" y="153"  width="51" height="49" frameX="-3" frameY="-37" frameWidth="57" frameHeight="86"/>
+</TextureAtlas>

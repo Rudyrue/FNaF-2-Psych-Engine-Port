@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="texture.png" width="2983" height="2721">
+  <SubTexture name="witheredChicaJump 0004.png" x="5" y="5" width="768" height="968" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="witheredChicaJump 0007.png" x="5" y="983" width="768" height="955" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="witheredChicaJump 0011.png" x="5" y="1948"  width="955" height="768" frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="witheredChicaJump 0006.png" x="970" y="1948"  width="945" height="768" frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="witheredChicaJump 0005.png" x="1925" y="5"  width="940" height="768" frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="witheredChicaJump 0008.png" x="1925" y="783"  width="858" height="768" frameX="-112" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="witheredChicaJump 0001.png" x="2793" y="783" width="185" height="603" rotated="true"  frameX="-176" frameY="-583" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="witheredChicaJump 0000.png" x="2793" y="1396" width="166" height="574" rotated="true"  frameX="-192" frameY="-602" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="witheredChicaJump 0010.png" x="1925" y="1561"  width="858" height="768" frameX="-112" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="witheredChicaJump 0002.png" x="1925" y="2339"  width="673" height="270" frameX="-135" frameY="-498" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="witheredChicaJump 0009.png" x="783" y="5"  width="852" height="768" frameX="-120" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="witheredChicaJump 0003.png" x="783" y="783"  width="806" height="610" frameX="-119" frameY="-158" frameWidth="1024" frameHeight="768"/>
+</TextureAtlas>

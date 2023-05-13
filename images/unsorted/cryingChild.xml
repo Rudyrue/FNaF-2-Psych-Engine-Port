@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="texture.png" width="427" height="173">
+  <SubTexture name="cryingChild 0001" x="3" y="3"  width="113" height="113" frameX="-2" frameY="-1" frameWidth="118" frameHeight="118"/>
+  <SubTexture name="cryingChildTears 0003" x="122" y="3"  width="71" height="90" frameX="-22" frameY="-28" frameWidth="118" frameHeight="118"/>
+  <SubTexture name="cryingChildTears 0004" x="122" y="99" width="90" height="71" rotated="true"  frameX="-22" frameY="-28" frameWidth="118" frameHeight="118"/>
+  <SubTexture name="cryingChildTears 0005" x="199" y="3"  width="71" height="90" frameX="-22" frameY="-28" frameWidth="118" frameHeight="118"/>
+  <SubTexture name="cryingChild 0000" x="218" y="99" width="86" height="71" rotated="true"  frameX="-22" frameY="-28" frameWidth="118" frameHeight="118"/>
+  <SubTexture name="cryingChildTears 0000" x="310" y="99" width="86" height="71" rotated="true"  frameX="-22" frameY="-28" frameWidth="118" frameHeight="118"/>
+  <SubTexture name="cryingChildTears 0001" x="276" y="3"  width="71" height="86" frameX="-22" frameY="-28" frameWidth="118" frameHeight="118"/>
+  <SubTexture name="cryingChildTears 0002" x="353" y="3"  width="71" height="86" frameX="-22" frameY="-28" frameWidth="118" frameHeight="118"/>
+</TextureAtlas>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="texture.png" width="342" height="223">
+  <SubTexture name="minigameCakeChild1 0001" x="3" y="3" width="103" height="108" rotated="true"  frameX="-7" frameY="-15" frameWidth="118" frameHeight="118"/>
+  <SubTexture name="minigameCakeChild2 0001" x="3" y="117"  width="108" height="103" frameX="-7" frameY="-15" frameWidth="118" frameHeight="118"/>
+  <SubTexture name="minigameCakeChild3 0001" x="112" y="3" width="103" height="108" rotated="true"  frameX="-7" frameY="-15" frameWidth="118" frameHeight="118"/>
+  <SubTexture name="minigameCakeChild1 0000" x="117" y="117"  width="108" height="99" frameX="-7" frameY="-19" frameWidth="118" frameHeight="118"/>
+  <SubTexture name="minigameCakeChild2 0000" x="221" y="3" width="99" height="108" rotated="true"  frameX="-7" frameY="-19" frameWidth="118" frameHeight="118"/>
+  <SubTexture name="minigameCakeChild3 0000" x="231" y="117"  width="108" height="99" frameX="-7" frameY="-19" frameWidth="118" frameHeight="118"/>
+</TextureAtlas>
