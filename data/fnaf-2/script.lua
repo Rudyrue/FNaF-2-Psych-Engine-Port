@@ -101,6 +101,9 @@ timers = {
 		runTimer('redCircleVisible', 1 / playbackRate)
 	end
 }
+tweens = {
+	['troll'] = function() if not usingLight then os.exit() end end
+}
 
 function onCreate() -- basic script shit you don't need to worry abt
 	addHaxeLibrary('FlxSound', 'flixel.system')
@@ -134,6 +137,11 @@ function onCreatePost()
 	addAnimation('officeButtonRight', 'a', {0,1}, 0, false)
 	addLuaSprite('officeButtonRight')
 	setLuaCamera('officeButtonRight', 'visuals')
+
+	makeLuaSprite('shadowBonnie', 'gameplay/office/shadowBonnie', 250, 0)
+	addLuaSprite('shadowBonnie')
+	setLuaCamera('shadowBonnie', 'visuals')
+	setProperty('shadowBonnie.alpha', 0)
 
 	makeAnimatedLuaSprite('desk', 'gameplay/office/desk/desk', 450, 300) -- desk
 	addAnimationByPrefix('desk', 'a', 'desk', 60)
@@ -528,6 +536,11 @@ function onCameraClose()
 	setProperty('officeButtonRight.visible', not cameraActive)
 	setSoundVolume('desk', 0.5)
 
+	if getRandomInt(1, 2) == 1 then
+		setProperty('shadowBonnie.alpha', 1)
+		doTweenAlpha('troll', 'shadowBonnie', 0, 4, 'linear')
+	end
+
 	removeLuaSprite('curCamSpr', false)
 	removeLuaSprite('cam6Wires', false)
 	removeLuaSprite('camStatic', false)
@@ -647,6 +660,7 @@ use these as you wish :smiling_imp:
 ]]
 function round(num, decimal_places) return math.floor(num * (10 ^ (decimal_places or 0)) + 0.5) / (10 ^ (decimal_places or 0)) end
 function onTimerCompleted(t) if timers[t] then timers[t]() end end
+function onTweenCompleted(t) if tweens[t] then tweens[t]() end end
 function curTimerLength(timer) 
 	return runHaxeCode([[
 		var tmr = game.modchartTimers.get(']] .. timer .. [[');
