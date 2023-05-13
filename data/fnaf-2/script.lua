@@ -536,7 +536,7 @@ function onCameraClose()
 	setProperty('officeButtonRight.visible', not cameraActive)
 	setSoundVolume('desk', 0.5)
 
-	if getRandomInt(1, 2) == 1 then
+	if getRandomInt(1, 1000000) == 1 then
 		setProperty('shadowBonnie.alpha', 1)
 		doTweenAlpha('troll', 'shadowBonnie', 0, 4, 'linear')
 	end
