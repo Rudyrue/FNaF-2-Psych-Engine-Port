@@ -151,13 +151,23 @@ function onCreatePost()
 	makeLuaSprite('freddyNose', nil, 141, 177) -- the nose
 	makeGraphic('freddyNose', 10, 10, 'FFFFFF')
 	setLuaCamera('freddyNose', 'visuals')
+
+	if shadersEnabled then
+		makeLuaSprite('temporaryShader')
+		setSpriteShader('temporaryShader', 'shader')
+		addHaxeLibrary('ShaderFilter', 'openfl.filters')
+		runHaxeCode([[
+			getVar('visuals').setFilters([new ShaderFilter(game.getLuaObject('temporaryShader').shader)]);
+			getVar('items').setFilters([new ShaderFilter(game.getLuaObject('temporaryShader').shader)]);
+		]])
+	end
 	
 	makeLuaSprite('scroll', nil, 640, 359) -- the scroll thing that makes you go left and right
 	setLuaCamera('scroll', 'visuals')
 
 	makeAnimatedLuaSprite('mask', 'gameplay/mask/mask', 0, 0) -- the mask anim
-	addAnimationByPrefix('mask', 'a', 'mask', 48, false)
-	addAnimationByIndices('mask', 'b', 'mask', '7,6,5,4,3,2,1,0', 48)
+	addAnimationByPrefix('mask', 'a', 'mask', 45, false)
+	addAnimationByIndices('mask', 'b', 'mask', '7,6,5,4,3,2,1,0', 45)
 	setGraphicSize('mask', screenWidth, screenHeight)
 	addLuaSprite('mask')
 	setLuaCamera('mask', 'items')
@@ -180,11 +190,11 @@ function onCreatePost()
 	setLuaCamera('maskHitbox', 'ui')
 
 	makeAnimatedLuaSprite('camera', 'gameplay/camera/camMonitor', 0, 0) -- camera monitor
-	addAnimationByPrefix('camera', 'a', 'camMonitor', 48, false)
-	addAnimationByIndices('camera', 'b', 'camMonitor', '10,9,8,7,6,5,4,3,2,1,0', 24)
+	addAnimationByPrefix('camera', 'a', 'camMonitor', 54, false)
+	addAnimationByIndices('camera', 'b', 'camMonitor', '10,9,8,7,6,5,4,3,2,1,0', 30)
 	setGraphicSize('camera', screenWidth, screenHeight)
 	addLuaSprite('camera')
-	setLuaCamera('camera', 'items')
+	setLuaCamera('camera', 'ui')
 	setProperty('camera.visible', false)
 
 	makeLuaSprite('curCamSpr', nil) -- the current camera's sprite
@@ -193,9 +203,11 @@ function onCreatePost()
 	addAnimationByPrefix('cam6Wires', 'a', 'wires')
 
 	makeAnimatedLuaSprite('camStatic', 'other/static') -- the static on the cameras
-	addAnimationByPrefix('camStatic', 'a', 'static')
+	addAnimationByPrefix('camStatic', 'a', 'static', 0)
+	setProperty('camStatic.animation.curAnim.frameRate', 59.4 * playbackRate) -- because sm made the framerate thing in addAnimationByPrefix an integer and not a float
 	setGraphicSize('camStatic', screenWidth, screenHeight)
-	setProperty('camStatic.alpha', 0.5)
+	setProperty('camStatic.alpha', 0.6)
+	playAnim('camStatic', 'a', true)
 
 	makeLuaSprite('camBorder', 'gameplay/ui/camera/camBorder', 0, 0) -- the border on the cameras
 	setGraphicSize('camBorder', screenWidth, screenHeight)
