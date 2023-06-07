@@ -165,6 +165,8 @@ function onCreatePost()
 	makeLuaSprite('scroll', nil, 640, 359) -- the scroll thing that makes you go left and right
 	setLuaCamera('scroll', 'visuals')
 
+	runHaxeCode('getVar("visuals").follow(game.getLuaObject("scroll", false));')
+
 	makeAnimatedLuaSprite('mask', 'gameplay/mask/mask', 0, 0) -- the mask anim
 	addAnimationByPrefix('mask', 'a', 'mask', 45, false)
 	addAnimationByIndices('mask', 'b', 'mask', '7,6,5,4,3,2,1,0', 45)
@@ -204,7 +206,7 @@ function onCreatePost()
 
 	makeAnimatedLuaSprite('camStatic', 'other/static') -- the static on the cameras
 	addAnimationByPrefix('camStatic', 'a', 'static', 0)
-	setProperty('camStatic.animation.curAnim.frameRate', 59.4 * playbackRate) -- because sm made the framerate thing in addAnimationByPrefix an integer and not a float
+	setProperty('camStatic.animation.curAnim.frameRate', 59.4) -- because sm made the framerate thing in addAnimationByPrefix an integer and not a float
 	setGraphicSize('camStatic', screenWidth, screenHeight)
 	setProperty('camStatic.alpha', 0.6)
 	playAnim('camStatic', 'a', true)
@@ -328,7 +330,6 @@ function onUpdate(elapsed)
 	if (getProperty('scroll.x') <= 640) or ((getProperty('scroll.x') + 1024 / 2 + camVelocity) >= 1464) then
 		setProperty('scroll.x', (getProperty('scroll.x') <= 640 and 639) or ((getProperty('scroll.x') + 1024 / 2 + camVelocity) >= 1464 and 950))
 	end
-	runHaxeCode('getVar("visuals").follow(game.getLuaObject("scroll", false));')
 
 	-- mask system
 	mouseOverlapMask = luaSpriteExists('maskHitbox') and mouseOverlap('maskHitbox', 'other')
