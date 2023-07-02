@@ -2,7 +2,11 @@
 <!--
 Created with Free texture packer v0.6.7 http://free-tex-packer.com
 -->
-<TextureAtlas imagePath="texture.png" width="2060" height="774">
-  <SubTexture name="static0000" x="3" y="3"  width="1024" height="768" frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
-  <SubTexture name="static0001" x="1033" y="3"  width="1024" height="768" frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+<TextureAtlas imagePath="texture.png" width="2578" height="2060">
+  <SubTexture name="static0000" x="3" y="3" width="768" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="static0001" x="3" y="1033" width="768" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="static0002" x="777" y="3"  width="1024" height="768" frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="static0003" x="1807" y="3" width="768" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="static0004" x="777" y="777"  width="1024" height="768" frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
+  <SubTexture name="static0005" x="1807" y="1033" width="768" height="1024" rotated="true"  frameX="-0" frameY="-0" frameWidth="1024" frameHeight="768"/>
 </TextureAtlas>

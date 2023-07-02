@@ -99,10 +99,24 @@ timers = {
 	['redCircleVisible'] = function() -- the red circle thingie on the cams
 		setProperty('redCircle.visible', (not getProperty('redCircle.visible'))) 
 		runTimer('redCircleVisible', 1 / playbackRate)
+	end,
+	['staticValues'] = function()
+		static.valueA = (getRandomInt(1, 50) - 1) + 125
+		if luaSpriteExists('camStatic') then setProperty('camStatic.alpha', clickteamToFlixelAlpha((static.valueA + static.valueB) - static.valueC - static.valueD)) end
+	end,
+	['staticValueB'] = function()
+		static.valueB = (getRandomInt(1,5) - 1) * 10
 	end
 }
 tweens = {
 	['troll'] = function() if not usingLight then os.exit() end end
+}
+
+static = {
+	valueA = 0,
+	valueB = 0,
+	valueC = 0,
+	valueD = 0
 }
 
 function onCreate() -- basic script shit you don't need to worry abt
@@ -182,7 +196,7 @@ function onCreatePost()
 	setLuaCamera('stillMask', 'items')
 	setProperty('stillMask.visible', false)
 
-	makeLuaSprite('maskButton', 'gameplay/ui/maskButton', 20, 650) -- the mask button
+	makeLuaSprite('maskButton', 'gameplay/ui/maskButton', 5, 650) -- the mask button
 	scaleObject('maskButton', 1.2, 1.2)
 	addLuaSprite('maskButton', true)
 	setLuaCamera('maskButton', 'ui')
@@ -204,9 +218,14 @@ function onCreatePost()
 	makeAnimatedLuaSprite('cam6Wires', 'gameplay/camera/cam6/cam6Wires', 150, 0) -- camera 6's wires
 	addAnimationByPrefix('cam6Wires', 'a', 'wires')
 
+	for i = 1, 3 do
+		makeLuaSprite('line' .. i, 'gameplay/camera/line' .. i, 0, -35)
+		setProperty('line' .. i .. '.alpha', clickteamToFlixelAlpha(240))
+	end
+
 	makeAnimatedLuaSprite('camStatic', 'other/static') -- the static on the cameras
 	addAnimationByPrefix('camStatic', 'a', 'static', 0)
-	setProperty('camStatic.animation.curAnim.frameRate', 59.4) -- because sm made the framerate thing in addAnimationByPrefix an integer and not a float
+	setProperty('camStatic.animation.curAnim.frameRate', 59.4) -- because haxeflixel is stupid
 	setGraphicSize('camStatic', screenWidth, screenHeight)
 	setProperty('camStatic.alpha', 0.6)
 	playAnim('camStatic', 'a', true)
@@ -232,9 +251,9 @@ function onCreatePost()
 	loadGraphic('musicBoxCircle', 'gameplay/ui/camera/musicBoxWindUp', 53, 54)
 	addAnimation('musicBoxCircle', 'a', {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, 0, false)
 
-	makeLuaSprite('redCircle', 'gameplay/ui/camera/camCircle', 35, 90) -- the red circle thingie on cams again
+	makeLuaSprite('redCircle', 'gameplay/ui/camera/camCircle', 55, 102) -- the red circle thingie on cams again
 
-	makeLuaSprite('cameraButton', 'gameplay/ui/camButton', 660, 650) -- the camera monitor's button
+	makeLuaSprite('cameraButton', 'gameplay/ui/camButton', 640, 650) -- the camera monitor's button
 	scaleObject('cameraButton', 1.2, 1.2)
 	addLuaSprite('cameraButton', true)
 	setLuaCamera('cameraButton', 'ui')
@@ -243,7 +262,7 @@ function onCreatePost()
 	makeGraphic('cameraHitbox', getProperty('cameraButton.width'), screenHeight - getProperty('cameraButton.height'), '000000')
 	setLuaCamera('cameraHitbox', 'ui')
 
-	makeLuaSprite('flashlightTxt', 'gameplay/ui/flashlightTxt', 35, 20) -- flashlight text
+	makeLuaSprite('flashlightTxt', 'gameplay/ui/flashlightTxt', 55, 24) -- flashlight text
 	addLuaSprite('flashlightTxt', true)
 	setLuaCamera('flashlightTxt', 'ui')
 
@@ -253,33 +272,60 @@ function onCreatePost()
 	addLuaSprite('batteries', true)
 	setLuaCamera('batteries', 'ui')
 
-	makeLuaSprite('nightSpr', 'gameplay/ui/night', 1135, 23) -- night text
+	makeLuaSprite('nightSpr', 'gameplay/ui/night', 1130, 31) -- night text
 	addLuaSprite('nightSpr', true)
 	setLuaCamera('nightSpr', 'ui')
 
-	makeLuaText('nightNum', '1', 500, 760, 14) -- what night you're on
+	makeLuaText('nightNum', '1', 500, 745, 25) -- what night you're on
 	setTextAlignment('nightNum', 'right')
-	setTextSize('nightNum', 25)
+	setTextSize('nightNum', 50)
 	setTextFont('nightNum', 'fnafFont.ttf')
 	setTextBorder('nightNum', 0.5, 'FFFFFF')
 	addLuaText('nightNum')
 	setLuaCamera('nightNum', 'ui')
 
-	makeLuaText('timeNum', '12', 500, 710, 45) -- what time you're on
+	makeLuaText('timeNum', '12', 500, 705, 54) -- what time you're on
 	setTextAlignment('timeNum', 'right')
-	setTextSize('timeNum', 25)
+	setTextSize('timeNum', 55)
 	setTextFont('timeNum', 'fnafFont.ttf')
 	setTextBorder('timeNum', 0.5, 'FFFFFF')
 	addLuaText('timeNum')
 	setLuaCamera('timeNum', 'ui')
 
-	makeLuaSprite('uiAm', 'gameplay/ui/uiAm', 1215, 53) -- AM text
+	makeLuaSprite('uiAm', 'gameplay/ui/uiAm', 1210, 61) -- AM text
 	addLuaSprite('uiAm', true)
 	setLuaCamera('uiAm', 'ui')
 
 	makeAnimatedLuaSprite('camChangeAnim', 'gameplay/ui/camera/camChange') -- the white static animation thing that plays when you change cameras
 	addAnimationByPrefix('camChangeAnim', 'a', 'camChange', 30, false)
 	setGraphicSize('camChangeAnim', screenWidth, screenHeight)
+
+	--cameras moving part 1
+	runHaxeCode([[
+		var tweenValue;
+		var wait;
+		var loopBack:Bool = true;
+	
+		tweenValue = function(a:Bool) {
+			FlxTween.num((a ? 0 : -320), (a ? -320 : 0), 5 / game.playbackRate, 
+			{ease: FlxEase.linear, onUpdate: function(b) {
+				setVar('moveCamPos', b.value);
+				game.modchartTweens.set('tweenMoveCam', b);
+			}, onComplete: function() {
+				wait();
+			}});
+		}
+	
+		wait = function() {
+			var g = new FlxTimer().start(3 / game.playbackRate, function(tmr:FlxTimer) {
+				tweenValue(!loopBack);
+				loopBack = !loopBack;
+			});
+			game.modchartTimers.set('waitMoveCam', g);
+		}
+	
+		tweenValue(true);
+	]])
 
 	-- all of the sounds
 	soundLoad('desk', 'deskSound', true) -- desk sound
@@ -309,6 +355,9 @@ function onCreatePost()
 	--timers
 	runTimer('clock', 420 / playbackRate)
 	runTimer('redCircleVisible', 1 / playbackRate)
+
+	runTimer('staticValues', 0.1, 0)
+	runTimer('staticValueB', 0.49, 0)
 end
 
 function onUpdate(elapsed)
@@ -383,36 +432,6 @@ function onUpdate(elapsed)
 	end
 	if not getProperty('camera.visible') and cameraActive then runHaxeCode('game.callOnLuas("onCameraUpdate", []);') end
 
-	--cameras moving part 1
-	if not getProperty('startMoveCam') then
-		runHaxeCode([[
-			var tweenValue;
-			var wait;
-			var loopBack:Bool = true;
-
-			tweenValue = function(a:Bool) {
-				FlxTween.num((a ? 0 : -320), (a ? -320 : 0), 5 / game.playbackRate, 
-				{ease: FlxEase.linear, onUpdate: function(b) {
-					setVar('moveCamPos', b.value);
-					game.modchartTweens.set('tweenMoveCam', b);
-				}, onComplete: function() {
-					wait();
-				}});
-			}
-
-			wait = function() {
-				var g = new FlxTimer().start(3 / game.playbackRate, function(tmr:FlxTimer) {
-					tweenValue(!loopBack);
-					loopBack = !loopBack;
-				});
-				game.modchartTimers.set('waitMoveCam', g);
-			}
-
-			tweenValue(true);
-			setVar('startMoveCam', true);
-		]])
-	end
-
 	-- light system part 1
 	usingLeftVent = flashlightHealth > 1 and (not (maskActive or cameraActive) and (mouseOverlap('officeButtonLeft', 'hud') and mousePressed())) or false
 	usingRightVent = flashlightHealth > 1 and (not (maskActive or cameraActive) and (mouseOverlap('officeButtonRight', 'hud', 330, 30) and mousePressed())) or false
@@ -431,6 +450,15 @@ function onUpdate(elapsed)
 	if not (maskActive or cameraActive) then
 		if mouseOverlap('freddyNose', 'hud', 0, shadersEnabled and 35 or 0) then if mouseClicked() then soundPlay('freddyNose') end end
 	end
+
+	setProperty('line1.y', getProperty('line1.y') + 0.75)
+	if getProperty('line1.y') > (screenHeight + 35) then setProperty('line1.y', -35) end
+
+	setProperty('line2.y', getProperty('line2.y') + 3)
+	if getProperty('line2.y') > (screenHeight + 35) then setProperty('line2.y', -35) end
+
+	setProperty('line3.y', getProperty('line3.y') + 4)
+	if getProperty('line3.y') > (screenHeight + 35) then setProperty('line3.y', -35) end
 
 	setProperty('officeButtonLeft.animation.curAnim.curFrame', usingLeftVent and 1 or 0)
 	setProperty('officeButtonRight.animation.curAnim.curFrame', usingRightVent and 1 or 0)
@@ -499,6 +527,11 @@ function onCameraOpen()
 	addLuaSprite('cam6Wires')
 	setLuaCamera('cam6Wires', 'items')
 
+	for i = 1, 3 do
+		addLuaSprite('line' .. i)
+		setLuaCamera('line' .. i, 'items')
+	end
+
 	addLuaSprite('camStatic')
 	setLuaCamera('camStatic', 'ui')
 
@@ -556,6 +589,7 @@ function onCameraClose()
 
 	removeLuaSprite('curCamSpr', false)
 	removeLuaSprite('cam6Wires', false)
+	for i = 1, 3 do removeLuaSprite('line' .. i, false) end
 	removeLuaSprite('camStatic', false)
 	removeLuaSprite('camBorder', false)
 	removeLuaSprite('redCircle', false)
@@ -672,6 +706,7 @@ backend functions
 use these as you wish :smiling_imp:
 ]]
 function round(num, decimal_places) return math.floor(num * (10 ^ (decimal_places or 0)) + 0.5) / (10 ^ (decimal_places or 0)) end
+function clickteamToFlixelAlpha(value) return 1 - (value / 255) end
 function onTimerCompleted(t) if timers[t] then timers[t]() end end
 function onTweenCompleted(t) if tweens[t] then tweens[t]() end end
 function curTimerLength(timer) 
@@ -688,6 +723,7 @@ function makeCamera(tag, x, y, transparent, width, height)
 	height = height or screenHeight
 	runHaxeCode([[
 		var ]] .. tag .. [[ = new FlxCamera(]] .. x .. [[, ]] .. y .. [[, ]] .. width .. [[, ]] .. height .. [[, 1);
+		]] .. tag .. [[.copyFrom(game.camOther);
 		var transparent = ]] .. tostring(transparent) .. [[;
 		]] .. tag .. [[.follow(null);
 		]] .. tag .. [[.bgColor = (transparent ? 0x00 : 0xFF) + 000000;

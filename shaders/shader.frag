@@ -15,7 +15,7 @@ void mainImage(void) {
     // Normalized pixel coordinates (from 0 to 1)
     vec2 uv = fragCoord/iResolution.xy;
     
-    float depth = 5.0f;
+    float depth = 6.0f;
 
     float dx = distance(uv.x, .5f);
     float dy = distance(uv.y, .5f);
